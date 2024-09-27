@@ -6,19 +6,25 @@ box-sizing: border-box;
   scroll-snap-type: y mandatory;
 }
 body {
-color: white;
 background-color: black;
 height: 100vh;
 display: grid;
 place-items: center;
 }
+.navbar{
+  margin-top: -120px;
+  margin-bottom: -100px;
+}
 .app_videos{
+  margin-left:  ;
+  margin-top: -100px;
+  margin-bottom: 100px;
 position: center;
-height: 1080px;
-background-color: white;
+height: 900px;
+background-color: black;
 overflow: scroll;
 width: 100%;
-max-width: 550px;
+max-width: 500px;
 scroll-snap-type: y mandatory;
 border-radius: 20px;
 }
@@ -44,7 +50,7 @@ scroll-snap-align: start;
 
 .videoFooter{
   position: relative;
-  bottom: 250px;
+  bottom: 170px;
   margin-left: 20px;
   color: white;
   display: flex;
